@@ -25,6 +25,7 @@ var sessionStore = new MongoDBStore({
   });
   // function(error)
   // {
+  //  hii
   //   console.log(error);
   // });
   sessionStore.on('error', function(error) {
